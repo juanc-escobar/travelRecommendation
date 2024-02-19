@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-logo img {
+    width: 70px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.nav-search input{
+    border-radius: 7px;
+}
+
+.nav-search button{
+    width: 60px;
+    background-color: #f58637;
+    border: none;
+    border-radius: 7px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.main-container {
+    height:  calc(100vh - 60px);
+    background-image: url(./assets/beach.webp);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.homepage-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-container {
+    height: fit-content;
+    max-height: calc(100vh - 100px);
+    position: fixed;
+    top: 60px;
+    right: 50px;
+    overflow-y: scroll;
+    color: white;
+}
+
+.main-content {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.main-content h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.main-content p {
+    color: white;
+    max-width: 450px;
+    font-size: 24px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: 400px;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.card h3,p {
+    margin-left: 10px;
+}
+
+.about-content {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.about-content h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.about-content p {
+    color: white;
+    max-width: 800px;
+    font-size: 24px;
+}
+
+.team-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.team-section h2 {
+    font-size: 32px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.team-card button{
+    width: 150px;
+}
+
+.contact-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.contact-from {
+    width: 500px;
+    margin-top: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-from label {
+    color: white;
+    align-self: flex-start;
+    margin-left: 23px;
+}
+
+.contact-from input {
+    width: 450px;
+    height: 25px;
+}
+
+.contact-from button {
+    width: 460px;
+    height: 25px;
+    background-color: #f58637;
+}
